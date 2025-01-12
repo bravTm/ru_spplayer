@@ -1,0 +1,115 @@
+body {
+    background-color: #141414;
+    font-family: "Neucha";
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.neucha-regular {
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
+
+.linkToEnglish {
+    color: white;
+}
+
+
+
+
+
+
+.main {
+    width: 100wh;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .center {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+.textBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 55px;
+    color: whitesmoke;
+}
+
+
+.playwrite-au-sa-title {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.title, .text {
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 5%;
+}
+
+.title {
+    font-weight: 600;
+}
+
+
+.buttonBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buttonBlock > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    font-size: 30px;
+
+    background-color: aliceblue;
+    width: 20%;
+    height: 50px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+
+.buttonBlock > a:hover {
+    background-color: rgba(240, 248, 255, 0.685);
+    transition: all ease 0.3s;
+}
+
+

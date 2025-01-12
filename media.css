@@ -1,0 +1,18 @@
+@media screen and (max-width: 750px) {
+    .buttonBlock > a {
+        width: 30%;
+    }
+
+    .linkToEnglish {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textBlock {
+        font-size: 43px;
+    }
+    .buttonBlock > a {
+        width: 40%;
+    }
+}

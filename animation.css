@@ -1,0 +1,44 @@
+
+.runningLine {
+    height: 100vh;
+    width: calc(0.6 * 100vh);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
+    writing-mode: vertical-rl;
+    text-orientation: use-glyph-orientation;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    color: rgba(80, 76, 76, 0.628);
+    transition: all ease 0.5s;
+}
+
+.textRunning {
+    animation: ticker 20000 infinite linear forwards;
+    margin-bottom: 5%;
+}
+
+.textRunning2 {
+    animation: 20000 ticker 20000/2 infinite linear forwards;
+}
+
+#running2 {
+    align-items: flex-start;
+    transition: all ease 0.5s;
+    animation: ticker 30000ms linear infinite;
+}
+
+@keyframes ticker {
+    0% {
+      transform: translate(0, 100%);
+    }
+  
+    50% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(0, -100%);
+    }
+}
